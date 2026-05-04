@@ -152,16 +152,23 @@ Errors return structured responses:
 ```json
 {
   "statusCode": 400,
-  "message": "Validation failed",
-  "errors": ["Dog adoption requires adopter age >= 21"]
+  "message": "ageAtArrival cannot be negative"
+}
+```
+
+Or:
+```json
+{
+  "statusCode": 404,
+  "message": "Pet not found"
 }
 ```
 
 Handled errors:
-- Invalid input (validation)
-- Resource not found (404)
-- Business rule violations (breed restrictions)
-- Database constraints
+- ✗ Invalid input (validation) → 400
+- ✗ Resource not found → 404
+- ✗ Business rule violations (breed restrictions) → 400
+- ✗ Server errors → 500
 
 ---
 
