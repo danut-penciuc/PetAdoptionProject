@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="IntegrationTests/IntegrationTests.csproj" Id="3fb414b1-8ad0-40c5-849d-e8680f13128f" />
+    <Project Path="UnitTests/UnitTests.csproj" />
+  </Folder>
+  <Project Path="Application/Application.csproj" />
+  <Project Path="Domain/Domain.csproj" />
+  <Project Path="Infrastructure/Infrastructure.csproj" />
+  <Project Path="PetAdoptionProject/PetAdoptionProject.csproj" />
+</Solution>
