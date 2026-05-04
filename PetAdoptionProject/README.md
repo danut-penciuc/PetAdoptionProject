@@ -165,10 +165,10 @@ Or:
 ```
 
 Handled errors:
-- ✗ Invalid input (validation) → 400
-- ✗ Resource not found → 404
-- ✗ Business rule violations (breed restrictions) → 400
-- ✗ Server errors → 500
+- Invalid input (validation) → 400
+- Resource not found → 404
+- Business rule violations (breed restrictions) → 400
+- Server errors → 500
 
 ---
 
